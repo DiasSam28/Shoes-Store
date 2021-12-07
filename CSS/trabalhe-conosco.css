@@ -1,0 +1,49 @@
+header {
+    box-shadow: 0px 1px 20px rgba(159, 159, 159, 0.65);
+}
+
+#trabalhe-conosco {
+    display: flex;
+    justify-content: center;
+}
+#trabalhe-conosco > div {
+    width: 45%;
+}
+
+#forms-trabalhe {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 30px;
+}
+
+#div-text {
+    padding-top: 102px;
+    padding-left: 15px;
+}
+h1 {
+    font-family: Open Sans;
+font-style: normal;
+font-size: 32px;
+
+color: #575757;
+}
+#forms-trabalhe > label {
+    padding-top: 10px;
+}
+
+.badge-enviar {
+    background-color: #C2185B;
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+color: #FFFFFF;
+border: 2px solid #C2185B;
+}
+.badge-enviar:hover {
+    background-color: #FFFFFF;
+    color: #C2185B;
+    transition: all 2s;
+}
